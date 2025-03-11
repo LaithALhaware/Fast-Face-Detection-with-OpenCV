@@ -19,13 +19,22 @@ This is a Python application that detects faces in an image using OpenCV's DNN-b
 
 ## 🛠️ Installation
 
-1. Clone the repository:
+1. Open CMD 🖥️
+
+
+| **Operating System** | **Steps**                                                                                                                   |
+|----------------------|-----------------------------------------------------------------------------------------------------------------------------|
+| **Windows** 💻        | 1. Press `Windows + R` to open the "Run" dialog box. <br> 2. Type `cmd` and hit `Enter`. <br> 3. The Command Prompt (CMD) will open. <br> Alternatively, you can search for "Command Prompt" in the Start menu and click to open it. 🔍 <br> 4. To navigate to the Desktop, type `cd %USERPROFILE%\Desktop` and hit `Enter`. 📂        |
+| **Linux** 🐧          | 1. Press `Ctrl + Alt + T` to open the terminal. <br> 2. Alternatively, search for "Terminal" in your applications menu. 💨 <br> 3. To navigate to the Desktop, type `cd ~/Desktop` and hit `Enter`. 📂        |
+
+
+2. Clone the repository:
 ```bash
 git clone https://github.com/LaithALhaware/Fast-Face-Detection-with-OpenCV.git
 cd face-detection-opencv
 ```
 
-2. Install the required dependencies :
+3. Install the required dependencies :
 ```bash
 pip install -r requirements.txt
 ```
