@@ -1,19 +1,28 @@
-# 🌤️ Weather Forecast App 🌦️
-![Image](Images/Capture.JPG)
-A simple Flask-based web application that allows users to get real-time weather information for any city. The weather data is fetched from the [wttr.in](https://wttr.in/) service, and the app displays the weather conditions along with relevant emojis.
+# 🧑‍💻 Face Detection with OpenCV and DNN 📸
 
-## ✨ Features 
+This is a Python application that detects faces in an image using OpenCV's DNN-based face detection model. The program uses TensorFlow's pre-trained model for better accuracy (75%+ confidence). A simple GUI built with Tkinter allows you to select an image, detect faces, and display the result.
 
-- 🌍 Enter a city name to get the current weather.
-- ☀️ Displays weather conditions (e.g., Sunny, Cloudy, Rainy) along with emojis 🌞🌧️❄️.
-- 🖥️ Simple, user-friendly interface.
+## 🚀 Features
 
-## ⚙️ Installation 
+- 👁️ Accurate face detection using DNN (Deep Neural Networks).
+- 🖼️ Simple GUI built with Tkinter to load and display images.
+- 🔍 Face detection with confidence threshold of 75% or higher.
+- 🔄 Resizes the image to fit the window while maintaining aspect ratio.
+
+## ⚙️ Requirements
+
+- Python 3.x
+- OpenCV
+- Pillow
+- NumPy
+- Tkinter (usually comes pre-installed with Python)
+
+## 🛠️ Installation
 
 1. Clone the repository:
-```bash
-git clone https://github.com/LaithALhaware/Weather-Forecast-App.git
-cd Weather-Forecast-App
+   ```bash
+   git clone https://github.com/LaithALhaware/Fast-Face-Detection-with-OpenCV.git
+   cd face-detection-opencv
 ```
 
 2. Install the required dependencies :
