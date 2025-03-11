@@ -20,9 +20,9 @@ This is a Python application that detects faces in an image using OpenCV's DNN-b
 ## 🛠️ Installation
 
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/LaithALhaware/Fast-Face-Detection-with-OpenCV.git
-   cd face-detection-opencv
+```bash
+git clone https://github.com/LaithALhaware/Fast-Face-Detection-with-OpenCV.git
+cd face-detection-opencv
 ```
 
 2. Install the required dependencies :
@@ -31,28 +31,20 @@ pip install -r requirements.txt
 ```
 
 ## 🚀 Usage 
-Run the app on Web Page :
+1- Run the script:
 ```bash
-python app-GUI.py
+python face_detection.py
 ```
-Open your browser and visit `http://127.0.0.1:5000/` to use the app.
- 
-Run the app on CMD :
-```bash
-python app-CMD.py
-```
+2- Click the **Open Image** button to load an image.
 
-## 🗂️ Project Structure 
-```bash
-Weather-Forecast-App/
-│
-├── app-GUI.py            # Main Flask application file
-├── app-CMD.py                
-├── templates/
-│   └── index.html        # HTML template for the weather app
-├── requirements.txt      # List of project dependencies
-└── README.md             # This file
-```
+3- The application will detect faces in the image and display them with rectangles.
+
+4- You can adjust the confidence threshold in the code if needed (default is 75%).
+
+## 📝 Code Explanation
+- **DNN Model**: We use OpenCV's DNN module with a pre-trained TensorFlow face detection model for more accurate face detection.
+- **GUI**: Tkinter is used to create a simple interface for opening and displaying images.
+- **Confidence Filtering**: The program only detects faces with confidence greater than 75%.
 
 
 
