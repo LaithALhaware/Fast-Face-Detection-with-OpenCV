@@ -1,5 +1,7 @@
 # 🧑‍💻 Face Detection with OpenCV and DNN 📸
 
+![Alt Text](Main.png)
+
 This is a Python application that detects faces in an image using OpenCV's DNN-based face detection model. The program uses TensorFlow's pre-trained model for better accuracy (75%+ confidence). A simple GUI built with Tkinter allows you to select an image, detect faces, and display the result.
 
 ## 🚀 Features
